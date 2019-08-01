@@ -1,0 +1,21 @@
+/* Style the search field */
+form.searchbox input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid grey;
+  float: center;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.searchbutton {
+  background-color: #203173;
+  border: none;
+  color: white;
+  padding: 14px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
