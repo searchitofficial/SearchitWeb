@@ -7,7 +7,23 @@ form.searchbox input[type=text] {
   width: 50%;
   background: #f1f1f1;
 }
+.engine {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid black;
+  float: center;
+  width: 10%;
+  background: #ffffff;
+}
 
+#filter01 {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid black;
+  float: center;
+  width: 10%;
+  background: #ffffff;
+}
 /* Style the submit button */
 .searchbutton {
   background-color: #203173;
