@@ -2,16 +2,54 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="assets/icon/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Search!t</title>
   </head>
   <body>
     <h1>Searchit</h1>
     <!-- The Search Box-->
-    <form class="searchbox" action="search.php">
-      <input type="text" placeholder="Search The Hell Out Of Internet !!" name="search">
+    <form class="searchbox" method="POST" action="search.php">
+      <input type="text" placeholder="Search The Hell Out Of Internet.." name="search" size="50px">
       <button type="submit" class="searchbutton">Search</button>
+      <p>
+      <input list="engine" name="engine" value="Google" class="engine" >
+        <datalist id="engine" >
+          <option value="Google">
+          <option value="Duckduckgo">
+          <option value="Bing">
+          <option value="Yahoo">
+          <option value="Yandex">
+          <option value="Baidu">
+          <option value="Starpage">
+          <option value="SearX">
+          <option value="Shodan">
+          <option value="Qwant">
+          <option value="Facebook">    
+          <option value="Twitter">
+          <option value="Reddit">
+          <option value="Linkedin">
+          <option value="Youtube">
+          <option value="Pinterest">
+          <option value="Tumblr">
+          <option value="Quora">
+          <option value="Wikipedia">
+          <option value="Amazon">
+          <option value="Ebay">
+          <option value="Github">
+          <option value="Gitlab">
+          <option value="Stack Overflow">
+        </datalist>
+        <select id="filter01">
+            <option value="web">Web</option>
+            <option value="image">Photos</option>
+            <option value="video">Videos</option>
+            <option value="news">News</option>
+          </select>
+        </p>
     </form>
+    <p>
+    <button type="submit" class="addanother"> + </button>
+    </p>
   </body>
 </html>
