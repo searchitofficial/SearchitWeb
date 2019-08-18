@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" href="assets/icon/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="style.css">
+   <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <title>Search!t</title>
   </head>
   <body>
@@ -13,44 +13,44 @@
       <input type="text" placeholder="Search The Hell Out Of Internet.." name="search" size="50px">
       <button type="submit" class="searchbutton">Search</button>
       <p> ↳
-          <input list="engine" name="engine" value="Google" class="engine" >
-            <datalist id="engine" >
-              <option value="Google"> </option>
-              <option value="Duckduckgo"> </option>
-              <option value="Bing"> </option>
-              <option value="Yahoo"> </option>
-              <option value="Yandex"> </option>
-              <option value="Baidu"> </option>
-              <option value="Starpage"> </option>
-              <option value="SearX"> </option>
-              <option value="Shodan"> </option>
-              <option value="Qwant"> </option>
-              <option value="Facebook"> </option>
-              <option value="Twitter"> </option>
-              <option value="Reddit"> </option>
-              <option value="Linkedin"></option>
-              <option value="Youtube"></option>
-              <option value="Pinterest"></option>
-              <option value="Tumblr"></option>
-              <option value="Quora"></option>
-              <option value="Wikipedia"></option>
-              <option value="Amazon"></option>
-              <option value="Ebay"></option>
-              <option value="Github"></option>
-              <option value="Gitlab"></option>
-              <option value="Stack Overflow"></option>
-             </datalist>
-             →
-        <select id="filter01">
-            <option value="web">Web</option>
-            <option value="image">Photos</option>
-            <option value="video">Videos</option>
-            <option value="news">News</option>
-          </select>
-        </p>
+      <input list="engine" name="engine" placeholder="Search Site" onfocus="this.value=''" value="Google" class="engine" >
+        <datalist id="engine" >
+          <option value="Google"> </option>
+          <option value="Duckduckgo"> </option>
+          <option value="Bing"> </option>
+          <option value="Yahoo"> </option>
+          <option value="Yandex"> </option>
+          <option value="Baidu"> </option>
+          <option value="Starpage"> </option>
+          <option value="SearX"> </option>
+          <option value="Shodan"> </option>
+          <option value="Qwant"> </option>
+          <option value="Facebook"> </option>
+          <option value="Twitter"> </option>
+          <option value="Reddit"> </option>
+          <option value="Linkedin"></option>
+          <option value="Youtube"></option>
+          <option value="Pinterest"></option>
+          <option value="Tumblr"></option>
+          <option value="Quora"></option>
+          <option value="Wikipedia"></option>
+          <option value="Amazon"></option>
+          <option value="Ebay"></option>
+          <option value="Github"></option>
+          <option value="Gitlab"></option>
+          <option value="Stack Overflow"></option>
+        </datalist>
+      →
+      <select id="filter01">
+        <option value="web">Web</option>
+        <option value="image">Photos</option>
+        <option value="video">Videos</option>
+        <option value="news">News</option>
+      </select>
+    </p>
     </form>
     <p>
-    <button type="submit" class="addanother"> + </button>
+      <button type="submit" class="addanother"> + </button>
     </p>
   </body>
 </html>
